@@ -43,9 +43,9 @@ ANSWER: The worst case input value for `key` in both `linear_search` and `binary
 
 - [ ] 5. Describe the best case input value of `key` for `linear_search`? for `binary_search`? 
 
-ANSWER: The best case input value for `key` in `linear_search` is whatever value is in index 0 of the relevent list. For example, in a list [1,2,3,4,5] something like 1 would be an example of the best case.
+ANSWER: The best case input value for `key` in `linear_search` is whatever value is in index 0 of the relevent list. For example, in a list [1,2,3,4,5] an input of 1 would be an example of the best case.
 
-The best case input value for `key` in `binary_search` is whatever value is in the middle index of the relevent list. For example, in a list [1,2,3,4,5] something like 3 would be an example of the best case.
+The best case input value for `key` in `binary_search` is whatever value is in the middle index of the relevent list. For example, in a list [1,2,3,4,5] an input of 3 would be an example of the best case.
 
 - [ ] 6. Complete the `time_search` function to compute the running time of a search function. Note that this is an example of a "higher order" function, since one of its parameters is another function.
 
@@ -68,6 +68,9 @@ The best case input value for `key` in `binary_search` is whatever value is in t
 ANSWER: Yes, my results generally match the theory. As n grows larger and larger, the runtime of the linear function grows massively while the binary function grows at a much slower rate.
 
 - [ ] 10. Binary search assumes the input list is already sorted. Assume it takes $\Theta(n^2)$ time to sort a list of length $n$. Suppose you know ahead of time that you will search the same list $k$ times. 
-  + What is worst-case complexity of searching a list of $n$ elements $k$ times using linear search? **TODO: your answer goes here**
-  + For binary search? **TODO: your answer goes here**
-  + For what values of $k$ is it more efficient to first sort and then use binary search versus just using linear search without sorting? **TODO: your answer goes here**
+  + What is worst-case complexity of searching a list of $n$ elements $k$ times using linear search? 
+  ANSWER: The worst case complexity will be $O(kn)$
+  + For binary search? 
+  ANSWER: The worst case complexity will be $O(n^2 + klog_2(n))
+  + For what values of $k$ is it more efficient to first sort and then use binary search versus just using linear search without sorting? 
+  ANSWER: It becomes generally more efficient to sort and use binary search when k>n.
