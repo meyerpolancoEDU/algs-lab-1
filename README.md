@@ -71,6 +71,6 @@ ANSWER: Yes, my results generally match the theory. As n grows larger and larger
   + What is worst-case complexity of searching a list of $n$ elements $k$ times using linear search? 
   ANSWER: The worst case complexity will be $O(kn)$
   + For binary search? 
-  ANSWER: The worst case complexity will be $O(n^2 + klog_2(n))
+  ANSWER: The worst case complexity will be $O(n^2 + klog_2(n))$
   + For what values of $k$ is it more efficient to first sort and then use binary search versus just using linear search without sorting? 
   ANSWER: It becomes generally more efficient to sort and use binary search when k>n.
