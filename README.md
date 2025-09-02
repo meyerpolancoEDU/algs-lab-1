@@ -1,7 +1,8 @@
 # CMPS 2200  Recitation 01
 
 **Name (Team Member 1):** Meyer Polanco 
-**Name (Team Member 2):**_________________________
+
+NOTE FROM MEYER: THIS WAS SUBMITTED FROM MY OWN REPO BECAUSE I STILL HAVE NOT BEEN ABLE TO GAIN ACCESS TO THE OTHER ONE THROUGH CANVAS.
 
 In this recitation, we will investigate asymptotic complexity. Additionally, we will get familiar with the various technologies we'll use for collaborative coding.
 
